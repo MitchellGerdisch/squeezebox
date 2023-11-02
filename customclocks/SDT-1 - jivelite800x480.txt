@@ -1,0 +1,87 @@
+{
+  "models": [
+    "jivelite800x480"
+  ],
+  "clockposy": "",
+  "name": "SDT-1a",
+  "background": "",
+  "clockposx": "",
+  "contributors": "plympton, GoCubs (SuperDateTime)",
+  "backgroundtype": "",
+  "backgrounddynamic": "false",
+  "items": [
+    {
+      "align": "center",
+      "itemtype": "timetext",
+      "posy": "180",
+      "color": "yellow",
+      "fontsize": "90",
+      "free": "1",
+      "text": "%l:%M %p",
+      "animate": "false"
+    },
+    {
+      "period": "-1",
+      "itemtype": "sdticon",
+      "posy": "45",
+      "dynamic": "false",
+      "posx": "30"
+    },
+    {
+      "fontsize": "40",
+      "color": "lightyellow",
+      "align": "center",
+      "itemtype": "sdttext",
+      "animate": "true",
+      "sdtformat": "%2 (Sunset %S)",
+      "posy": "250"
+    },
+    {
+      "fontsize": "110",
+      "color": "white",
+      "align": "center",
+      "itemtype": "sdttext",
+      "animate": "false",
+      "sdtformat": "%t",
+      "posy": "50",
+      "posx": "120"
+    },
+    {
+      "fontsize": "60",
+      "align": "center",
+      "itemtype": "sdttext",
+      "animate": "true",
+      "sdtformat": "%z",
+      "posy": "160",
+      "posx": "100"
+    },
+    {
+      "fontsize": "60",
+      "color": "lightgray",
+      "align": "center",
+      "itemtype": "sdttext",
+      "animate": "true",
+      "sdtformat": "Precip %x",
+      "posy": "160",
+      "posx": "-140"
+    },
+    {
+      "width": "90",
+      "period": "1",
+      "itemtype": "sdticon",
+      "posy": "60",
+      "dynamic": "false",
+      "height": "50",
+      "posx": "145"
+    },
+    {
+      "width": "90",
+      "period": "2",
+      "itemtype": "sdticon",
+      "posy": "110",
+      "dynamic": "false",
+      "height": "50",
+      "posx": "145"
+    }
+  ]
+}

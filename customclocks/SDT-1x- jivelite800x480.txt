@@ -1,0 +1,50 @@
+{
+  "models": [
+    "jivelite800x480"
+  ],
+  "clockposy": "",
+  "name": "SDT-1x",
+  "background": "",
+  "clockposx": "",
+  "contributors": "plympton, GoCubs (SuperDateTime)",
+  "backgroundtype": "",
+  "backgrounddynamic": "false",
+  "items": [
+    {
+      "align": "center",
+      "itemtype": "timetext",
+      "posy": "250",
+      "color": "lightgray",
+      "fontsize": "130",
+      "free": "1",
+      "text": "%l:%M %p",
+      "animate": "false"
+    },
+    {
+      "fontsize": "30",
+      "color": "lightgray",
+      "align": "center",
+      "itemtype": "sdttext",
+      "animate": "true",
+      "sdtformat": "%2 (Sunset %S)",
+      "posy": "400"
+    },
+    {
+      "fontsize": "110",
+      "color": "lightgray",
+      "align": "center",
+      "itemtype": "sdttext",
+      "animate": "false",
+      "sdtformat": "%t/%f",
+      "posy": "50"
+    },
+    {
+      "fontsize": "60",
+      "align": "center",
+      "itemtype": "sdttext",
+      "animate": "true",
+      "sdtformat": "%z",
+      "posy": "160"
+    }
+  ]
+}
