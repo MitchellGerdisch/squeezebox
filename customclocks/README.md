@@ -95,6 +95,10 @@ Start here to understand them:
 
 For the SuperDateTime related settings, the only place I can find them is by going to Logitech Media Server and going to the player tab and selecting the SuperDateTime item. This will show the various time and weather codes.
 
+|See the following for info on Periods:
+
+- https://forums.slimdevices.com/forum/user-forums/3rd-party-software/108838-announce-superdatetime-screensaver-v5-11-0-date-time-weather-sports-stocks?p=1654949#post1654949
+
 If you look at one of the custom clocks in this repo, you'll see how they are used.
 
 Tweak and install and test and repeat ....
