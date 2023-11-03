@@ -3,7 +3,7 @@
     "jivelite800x480"
   ],
   "clockposy": "",
-  "name": "SDT-3g-forecast",
+  "name": "SDT-3p-forecast",
   "background": "",
   "clockposx": "",
   "contributors": "plympton, GoCubs (SuperDateTime)",
@@ -36,7 +36,7 @@
       "itemtype": "sdttext",
       "animate": "false",
       "sdtformat": "%t/%f",
-      "posx": "50",
+      "posx": "20",
       "posy": "50"
     },
     {
@@ -45,25 +45,27 @@
       "itemtype": "sdttext",
       "animate": "true",
       "sdtformat": "%z",
-      "posx": "50",
+      "posx": "20",
       "posy": "160"
     },
     {
-      "fontsize": "60",
+      "fontsize": "40",
       "itemtype": "sdttext",
       "animate": "true",
       "sdtformat": "%y: %!z",
-      "posy": "50",
-      "posx": "500",
+      "align": "left",
+      "posy": "120",
+      "posx": "430",
       "period": "1"
     },
     {
-      "fontsize": "60",
+      "fontsize": "40",
       "itemtype": "sdttext",
       "animate": "true",
       "sdtformat": "%y: %!z",
-      "posy": "110",
-      "posx": "500",
+      "align": "left",
+      "posy": "175",
+      "posx": "430",
       "period": "2"
     }
   ]
