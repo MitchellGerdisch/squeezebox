@@ -1,0 +1,90 @@
+{
+  "models": [
+    "jivelite800x480"
+  ],
+  "name": "SDT-4a-forecast-moonphase",
+  "background": "",
+  "clockposy": "",
+  "clockposx": "",
+  "contributors": "plympton, GoCubs (SuperDateTime)",
+  "backgroundtype": "",
+  "backgrounddynamic": "false",
+  "items": [
+    {
+      "align": "center",
+      "itemtype": "timetext",
+      "posy": "250",
+      "color": "lightgray",
+      "fontsize": "130",
+      "free": "1",
+      "text": "%l:%M %p",
+      "animate": "false"
+    },
+    {
+      "color": "lightgray",
+      "fontsize": "30",
+      "align": "center",
+      "itemtype": "sdttext",
+      "posy": "400",
+      "sdtformat": "%2 (Sunset %S)",
+      "animate": "true"
+    },
+    {
+      "align": "left",
+      "itemtype": "sdttext",
+      "posy": "50",
+      "sdtformat": "%t/%f",
+      "fontsize": "110",
+      "color": "lightgray",
+      "animate": "false",
+      "posx": "20"
+    },
+    {
+      "fontsize": "60",
+      "align": "left",
+      "itemtype": "sdttext",
+      "posy": "160",
+      "sdtformat": "%z",
+      "animate": "true",
+      "posx": "20"
+    },
+    {
+      "period": "1",
+      "align": "left",
+      "itemtype": "sdttext",
+      "posy": "120",
+      "sdtformat": "%y: %!z",
+      "fontsize": "40",
+      "animate": "true",
+      "posx": "430"
+    },
+    {
+      "period": "2",
+      "align": "left",
+      "itemtype": "sdttext",
+      "posy": "175",
+      "sdtformat": "%y: %!z",
+      "fontsize": "40",
+      "animate": "true",
+      "posx": "430"
+    },
+    {
+      "width": "90",
+      "visibilitygroup": "",
+      "itemtype": "sdtweathericon",
+      "step": "",
+      "order": "",
+      "visibilitytime": "",
+      "offset": "",
+      "framewidth": "",
+      "period": "-1",
+      "posy": "",
+      "visibilityorder": "",
+      "interval": "",
+      "height": "90",
+      "framerate": "",
+      "logotype": "moonphaseURL",
+      "posx": "680"
+    }
+  ]
+}

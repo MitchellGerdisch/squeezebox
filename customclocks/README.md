@@ -8,9 +8,13 @@ Custom Clock Wiki Page:
 
 - https://wiki.slimdevices.com/index.php/Custom_Clock_applet.html
 
-Official forum thread about this:
+Official forum thread about Custom Clock:
 
 - https://forums.slimdevices.com/forum/user-forums/3rd-party-software/101656-custom-clock-for-jivelite-with-800x480-screen
+
+Latest SuperDateTime forum thread:
+
+- https://forums.slimdevices.com/forum/user-forums/3rd-party-software/108838-announce-superdatetime-screensaver-v5-11-0-date-time-weather-sports-stocks#post1654949
 
 ## Prerequsites
 
@@ -72,10 +76,6 @@ For this stuff to work, I had to do the following:
 To make your own clock you need to start with a json config file.
 
 You can COPY one of the files in this folder.
-
-Or download one from here:
-
-- https://wiki.slimdevices.com/index.php/Custom_Clock_styles.html
 
 Or export one from the Logitech Media Server as follows ...
 
