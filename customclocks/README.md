@@ -4,7 +4,7 @@ This folder contains various custom clocks for use with Jivelite/Squeezelite on 
 
 ## References
 
-Custom Clock Wiki Page:
+Custom Clock Wiki Page (VERY USEFUL FOR CONFIG SETTINGS)
 
 - https://wiki.slimdevices.com/index.php/Custom_Clock_applet.html
 
@@ -12,7 +12,7 @@ Official forum thread about Custom Clock:
 
 - https://forums.slimdevices.com/forum/user-forums/3rd-party-software/101656-custom-clock-for-jivelite-with-800x480-screen
 
-Latest SuperDateTime forum thread:
+Latest SuperDateTime forum thread (VERY USEFUL FOR SDT CONFIG SETTINGS):
 
 - https://forums.slimdevices.com/forum/user-forums/3rd-party-software/108838-announce-superdatetime-screensaver-v5-11-0-date-time-weather-sports-stocks#post1654949
 
