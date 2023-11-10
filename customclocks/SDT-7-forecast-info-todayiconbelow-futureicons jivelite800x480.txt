@@ -1,0 +1,102 @@
+{
+  "models": [
+    "jivelite800x480"
+  ],
+  "name": "SDT-7k-forecast-todayiconbelow",
+  "background": "",
+  "clockposy": "",
+  "clockposx": "",
+  "contributors": "plympton, GoCubs (SuperDateTime)",
+  "backgroundtype": "",
+  "backgrounddynamic": "false",
+  "items": [
+    {
+      "align": "center",
+      "itemtype": "timetext",
+      "posy": "250",
+      "color": "lightgray",
+      "fontsize": "130",
+      "free": "1",
+      "text": "%l:%M %p",
+      "animate": "false",
+      "order": "10"
+    },
+    {
+      "color": "lightgray",
+      "fontsize": "50",
+      "align": "center",
+      "itemtype": "sdttext",
+      "posy": "400",
+      "sdtformat": "%!2 (Sunset %S)",
+      "animate": "true"
+    },
+    {
+      "itemtype": "sdttext",
+      "color": "yellow",
+      "posx": "20",
+      "posy": "20",
+      "align": "left",
+      "animate": "false",
+      "fontsize": "110",
+      "sdtformat": "%t/%f",
+      "order": "20"
+    },
+    {
+      "itemtype": "sdttext",
+      "color": "yellow",
+      "posx": "20",
+      "posy": "130",
+      "align": "left",
+      "animate": "true",
+      "fontsize": "60",
+      "sdtformat": "%z"
+    },
+    {
+      "itemtype": "sdttext",
+      "posx": "430",
+      "posy": "20",
+      "align": "left",
+      "animate": "true",
+      "fontsize": "40",
+      "period": "1",
+      "sdtformat": "%y: %!z"
+    },
+    {
+      "itemtype": "sdttext",
+      "posx": "430",
+      "posy": "75",
+      "align": "left",
+      "animate": "true",
+      "fontsize": "40",
+      "period": "2",
+      "sdtformat": "%y: %!z"
+    },
+    {
+      "itemtype": "sdtweathericon",
+      "posx": "310",
+      "posy": "140",
+      "height": "240",
+      "width": "240",
+      "order": "1",
+      "period": "-1"
+    },
+    {
+      "itemtype": "sdtweathericon",
+      "posx": "550",
+      "posy": "130",
+      "height": "90",
+      "width": "90",
+      "order": "2",
+      "period": "1"
+    },
+    {
+      "itemtype": "sdtweathericon",
+      "posx": "650",
+      "posy": "130",
+      "height": "90",
+      "width": "90",
+      "order": "2",
+      "period": "2"
+    }
+  ]
+}
